@@ -71,6 +71,21 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="about-lab section" id="about" aria-labelledby="about-title">
+        <div className="container about-lab__grid">
+          <div>
+            <p className="eyebrow">About Accountability Lab</p>
+            <h2 id="about-title">Research you can inspect, question and use.</h2>
+          </div>
+          <div>
+            <p className="about-lab__lead">Accountability Lab is an independent research practice created by Tony Key, a senior UX and product designer investigating how organisations can use AI with meaningful human control.</p>
+            <p>It turns abstract obligations—oversight, traceability, authority, contestability and recovery—into interfaces and workflows that experts, product teams and business leaders can examine together.</p>
+            <p>This is deliberately show-and-tell research: synthetic demonstrations, open questions and practical design propositions rather than claims of a finished product or guaranteed compliance.</p>
+            <a className="button button--secondary" href="https://www.tonykey.digital" rel="noreferrer" target="_blank">About Tony and his work ↗</a>
+          </div>
+        </div>
+      </section>
+
       <div className="container"><LabFooter /></div>
     </main>
   )

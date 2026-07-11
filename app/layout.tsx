@@ -3,8 +3,9 @@ import '@fontsource-variable/dm-sans'
 import '@fontsource-variable/fraunces'
 import '@fontsource-variable/jetbrains-mono'
 import './globals.css'
+import { getSiteUrl } from '@/src/lib/site-url'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'
+const siteUrl = getSiteUrl()
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

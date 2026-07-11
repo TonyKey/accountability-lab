@@ -1,15 +1,22 @@
-# Approval Pattern Gallery
+# Accountability Lab
 
-**The Moment Before Action** is an independent Accountability Lab research exhibit about meaningful human approval, oversight patterns, and decision records for consequential AI actions.
+Accountability Lab is an independent public research studio exploring confidence, control and responsibility in AI systems. It turns accountability questions into inspectable interface experiments rather than presenting a fictional finished product.
 
-It continues a question first surfaced in [TX-1 Terminal Explorer](https://github.com/TonyKey/ANT-TX1-TERMINAL): what must a person know before an AI is allowed to change the world?
+## The Studio
+
+- **Approval Pattern Gallery** — where should a person intervene?
+- **Decision Record Explorer** — can we reconstruct what happened?
+- **Oversight Console** — what deserves human attention now?
+- **Accountability Eval Kit** — how accountable is this workflow?
+
+The work continues a question first surfaced in [TX-1 Terminal Explorer](https://github.com/TonyKey/ANT-TX1-TERMINAL): what must a person know before an AI is allowed to change the world?
 
 ## Boundaries
 
-- This is completely independent of Coupa.
-- All organisations, people, workflows, and operational data are fictional and synthetic.
-- The regulatory horizon is educational design research, not legal advice or a compliance assessment.
-- The experience is a presentation and investigation, not an operational product.
+- Completely independent of Coupa and currently standalone from WFK.digital.
+- All organisations, people, workflows and operational data are fictional and synthetic.
+- Regulatory material is educational design research, not legal advice or a compliance assessment.
+- The interfaces are research instruments and presentation environments, not operational products.
 
 ## Local development
 
@@ -29,24 +36,6 @@ pnpm lint
 pnpm build
 ```
 
-## Content structure
-
-- `src/content/patterns.ts` — approval pattern language.
-- `src/content/scenarios.ts` — synthetic workflow demonstrations.
-- `src/content/regulatory-sources.ts` — official sources and design implications.
-- `src/content/research-questions.ts` — the active research programme.
-- `docs/plans/` — approved experience and implementation decisions.
-
 ## Vercel deployment
 
-Import the Git repository into Vercel and set:
-
-```text
-NEXT_PUBLIC_SITE_URL=https://your-production-domain.example
-```
-
-No database or server-side secret is required for this foundation.
-
-## Updating regulatory material
-
-Use official primary sources. Verify dates and claims, update each source’s `checkedAt` field, and retain the non-legal-advice boundary. Never infer compliance from the presence of an interface pattern.
+Set `NEXT_PUBLIC_SITE_URL=https://accountabilitylab.studio` once the domain has been registered and attached. No database, authentication or server-side secret is required for this research foundation.

@@ -16,7 +16,7 @@ This repository is an independent public research exhibit about AI accountabilit
 
 ## Experience standards
 
-- This is an editorial research exhibit, not a SaaS dashboard or product simulation.
+- This is an editorial research environment, not operational SaaS. Product-like interfaces are research props used to make an argument and must remain visibly synthetic.
 - Preserve the paper, ink, rust and archival-dark visual language.
 - Use Fraunces for editorial display, DM Sans for reading, and JetBrains Mono for evidence and metadata.
 - Use illustration only when it sharpens the argument. Follow the saved LinkedIn whiteboard style with project colour tokens.

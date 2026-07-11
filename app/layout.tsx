@@ -9,23 +9,23 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'The Moment Before Action — Accountability Lab',
+    default: 'Accountability Lab — AI accountability research',
     template: '%s — Accountability Lab',
   },
   description:
-    'An independent research exhibit about meaningful human approval, decision records, and accountability in AI systems.',
+    'Independent research into confidence, control and responsibility in AI systems.',
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'The Moment Before Action — Accountability Lab',
-    description: 'A button is not accountability. Explore approval patterns for consequential AI actions.',
+    title: 'Accountability Lab — The system acts. Who answers?',
+    description: 'Interactive research into approval, decision records, operational oversight and AI accountability evaluation.',
     url: '/',
     siteName: 'Accountability Lab',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Moment Before Action — Accountability Lab',
-    description: 'A button is not accountability. Explore approval patterns for consequential AI actions.',
+    title: 'Accountability Lab — The system acts. Who answers?',
+    description: 'Interactive research into approval, decision records, operational oversight and AI accountability evaluation.',
   },
 }
 

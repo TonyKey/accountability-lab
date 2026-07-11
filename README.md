@@ -38,4 +38,4 @@ pnpm build
 
 ## Vercel deployment
 
-Set `NEXT_PUBLIC_SITE_URL=https://accountabilitylab.studio` once the domain has been registered and attached. No database, authentication or server-side secret is required for this research foundation.
+Set `NEXT_PUBLIC_SITE_URL=https://accountability-lab.studio` for canonical metadata and sitemap generation. No database, authentication or server-side secret is required for this research foundation.

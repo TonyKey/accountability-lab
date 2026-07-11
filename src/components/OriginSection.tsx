@@ -23,6 +23,9 @@ export function OriginSection() {
           <p className="origin__question">
             What must a person know before an AI is allowed to change the world?
           </p>
+          <a className="origin__link" href="https://github.com/TonyKey/ANT-TX1-TERMINAL" target="_blank" rel="noreferrer">
+            View the TX-1 origin project ↗
+          </a>
         </div>
         <div className="terminal" aria-label="The six-stage TX-1 accountability loop">
           <div className="terminal__bar">

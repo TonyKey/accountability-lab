@@ -40,6 +40,22 @@ export type Scenario = {
   actions: ScenarioAction[]
 }
 
+export type DecisionRecord = {
+  id: string
+  scenarioId: string
+  synthetic: true
+  proposal: string
+  evidenceSnapshot: string[]
+  decision: ScenarioAction['kind']
+  actionLabel: string
+  humanEdit?: string
+  authority: string
+  reversibility: string
+  consequence: string
+  timestampLabel: string
+  executionStatus: 'held' | 'authorised' | 'rejected' | 'escalated'
+}
+
 export type RegulatorySource = {
   id: string
   jurisdiction: string
